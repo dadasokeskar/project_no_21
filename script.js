@@ -1,0 +1,21 @@
+let a = 10;
+let b = 20;
+console.log("a=",a,"b=",b);
+console.log("Arithimatic operation");
+console.log("Add: ",a+b,"Sub: ", a-b,"Multiply: ", a*b,"Divide: ", a/b,"Modulus: ", a%b);
+console.log("Relational operation");
+console.log("a>b",a>b,"a<b",a<b,"a<=b",a<=b,"a>=b",a>=b);
+console.log("Increment and Decrement Operation");
+console.log("a++",a++,"b++",b++,"a--",a--,"b--",b--);
+console.log("Bitwise Operation: ");
+console.log("a & b",a & b,"a|b",a|b,"a^b",a^b,"~a",~a,"~b",~b,"a<<b",a<<b,"a>>b",a>>b,"a>>>b",a>>>b);
+console.log("Assignment Operation");
+let c=a;
+let d=b;
+console.log("c= ",c,"d= ",d);
+console.log("Conditional Operation")
+console.log("Ternary operator:",a>b?"a is greater":"b is greater");
+console.log("Special Operaton");
+console.log("Type of a is :",typeof(a));
+console.log("Logical Operation");
+console.log("a && b",a || b,"a || b",a || b,"!a",!a);
